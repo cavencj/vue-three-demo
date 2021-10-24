@@ -21,7 +21,8 @@ module.exports = {
     'no-trailing-spaces': 0,
     'no-mixed-spaces-and-tabs': 0,
     'space-before-function-paren': [0, 'always'],
-    'no-multiple-empty-lines': 0
+    'no-multiple-empty-lines': 0,
+    'no-prototype-builtins': 0
   },
   globals: {
     __SERVICE_URL__: false,
@@ -32,6 +33,7 @@ module.exports = {
     Hub: false,
     echarts: false,
     axios: false,
-    '%=': false
+    '%=': false,
+    DT:false
   }
 };
